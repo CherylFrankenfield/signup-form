@@ -1,0 +1,70 @@
+form {
+  background-color: #1A3D3E;
+  color: white;
+  width: 400px;
+  height: 350px;
+  font-size: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+form p {
+  text-align: center;
+  font-size: 22px;
+}
+
+input {
+  font-family: sans-serif;
+  height: 25px;
+  width: 350px;
+  border-width: thin;
+  border-color: 10px white;
+  background-color: #1A3D3E;
+  padding: 5px;
+  font-size: 22px;
+  color: white;
+}
+
+input::placeholder {
+  color: #A9A9A9;
+  font-size: 20px;
+}
+
+#sign-up  {
+  height: 40px;
+  width: 200px;
+  float: left;
+  background-color: #118AB2;
+  color: white;
+}
+
+#log-in {
+  height: 40px;
+  width: 200px;
+}
+
+#get-started {
+  height: 40px;
+  width: 350px;
+  padding: 5px;
+  margin-top: 15px;
+  background-color: #118AB2;
+  color: white;
+  letter-spacing: 2px;
+}
+
+button {
+  background-color: #A9A9A9;
+  color: white;
+  font-size: 20px;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+
+button:hover {
+  background-color: #118AB2;
+  border: 5px #66F24B;
+}
